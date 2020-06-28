@@ -19,8 +19,8 @@ $(document).ready(function () {
                             `<div id="${item.id}" class="card col-md-3">
                                 <p>${item.id}</p>
                                 <p>${item.name}</p>
-                                <p>${item.price}</p>
-                                <p>${item.quantity}</p>
+                                <p>Price: ${item.price}</p>
+                                <p>Stock Available: ${item.quantity}</p>
                             </div>`
                         );
                         card.appendTo("#cards");
