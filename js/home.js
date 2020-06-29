@@ -43,7 +43,6 @@ $(document).ready(function () {
 
                     success: function (data, status) {
                         clearInputs();
-                        console.log(data);
                         displayChange(data);
                         displayMessage("Thank You!");
                         getAllItems();
