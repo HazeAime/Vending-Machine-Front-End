@@ -19,7 +19,7 @@ $(document).ready(function () {
                             `<div id="${item.id}" class="card col-md-3">
                                 <p>${item.id}</p>
                                 <p>${item.name}</p>
-                                <p>Price: ${item.price}</p>
+                                <p>Price: $${item.price}</p>
                                 <p>Stock Available: ${item.quantity}</p>
                             </div>`
                         );
